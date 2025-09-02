@@ -16,8 +16,8 @@
 
 <body>
     <section
-        class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
-        <nav class="bg-red-900 fixed w-full z-20 top-0 start-0">
+        class="h-screen bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
+        <nav class="bg-red-900 fixed w-full z-20 top-0 start-0 shadow-xl">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3">
                 <!-- Logo -->
                 <a href="#" class="flex items-center ">
@@ -112,7 +112,7 @@
                 </div>
             </div>
         </nav>
-        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <div class="flex flex-col justify-center items-center h-screen px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">We
                 invest in the world’s potential</h1>
             <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Here at Flowbite we focus on
@@ -120,7 +120,7 @@
             </p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                 <a href="#"
-                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300">
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-900 hover:bg-red-800 focus:ring-4 focus:ring-blue-300">
                     Get started
                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
@@ -129,21 +129,108 @@
                     </svg>
                 </a>
                 <a href="#"
-                    class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                    class="inline-flex justify-center hover:text-white items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-red-900 rounded-lg border border-red-900 hover:border-red-800 hover:bg-red-900">
                     Learn more
                 </a>
             </div>
         </div>
     </section>
-    <section class="h-screen">
-        <div class="bg-red-900 h-screen"></div>
+    <section class="h-96 w-full flex justify-center items-center">
+        <div class="h-72 w-full max-w-4xl bg-red-900 flex flex-col justify-center items-center text-center space-y-5 rounded-lg">
+            <div class="text-2xl font-bold text-white">Tentang Kami</div>
+            <div class="text-lg text-wrap text-white max-w-xl">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque, temporibus debitis sint
+                exercitationem nostrum reiciendis ipsam tempora asperiores mollitia? Eveniet veniam assumenda at error
+                ad odio nemo provident itaque officiis? Quod illum, accusamus dicta fuga deleniti laboriosam debitis
+                quidem laborum similique necessitatibus natus sint velit, quo nesciunt tempore. Ullam.
+            </div>
+        </div>
     </section>
-    <section>
-        <!-- Tampilan atas -->
+    <section class="h-screen w-full flex bg-red-900 justify-center items-center">
+        <div class="w-full flex flex-col justify-center items-center space-y-5">
+            <div class="font-bold text-2xl text-center text-white">Kelas</div>
+            <div class="h-full w-full max-w-4xl flex flex-col justify-center items-center space-y-5">
+                <div class="w-full h-56 space-x-5 bg-white shadow-xl flex justify-center items-center rounded-lg p-4">
+                    <div class="w-72 bg-red-500"><img src="" alt="tempat gambar"></div>
+                    <div class="w-full">
+                        <div class="flex flex-col space-y-2 text-start">
+                            <div class="font-semibold text-xl text-red-900">Office Class</div>
+                            <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, consequatur.
+                                Consequatur, magnam sapiente fugiat nisi excepturi assumenda placeat id laudantium.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-56 bg-white space-x-5 shadow-xl flex justify-center items-center rounded-lg p-4">
+                    <div class="w-72"><img src="" alt="tempat gambar"></div>
+                    <div class="w-full">
+                        <div class="flex flex-col space-y-2 text-start">
+                            <div class="font-semibold text-red-900">Programming Class</div>
+                            <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, consequatur.
+                                Consequatur, magnam sapiente fugiat nisi excepturi assumenda placeat id laudantium.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-56 bg-white shadow-xl space-x-5 flex justify-center items-center rounded-lg p-4">
+                    <div class="w-72"><img src="" alt="tempat gambar"></div>
+                    <div class="w-full">
+                        <div class="flex flex-col space-y-2 text-start">
+                            <div class="font-semibold text-red-900">Framework Class</div>
+                            <div class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, consequatur.
+                                Consequatur, magnam sapiente fugiat nisi excepturi assumenda placeat id laudantium.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-        <!-- Tampilan atas -->
+    <section class="h-screen w-full flex justify-center items-center">
+        <div class="w-full h-full flex flex-col justify-center items-center space-y-5">
+            <div class="font-bold text-2xl text-center text-red-900">Kegiatan</div>
+            <div class=" space-x-5 space-y-5 grid grid-cols-3 overflow-x-auto ">
+                <div class="w-56 h-96 bg-white shadow-xl flex flex-col justify-center rounded-lg p-4 space-y-5 hover:bg-red-900 hover:text-white transition duration-300">
+                    <div class=""><img src="" alt="ini gambar kegiatan"></div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid autem quam
+                        expedita, ullam et quia esse nemo nostrum corporis, cupiditate modi ipsa blanditiis fuga.</div>
+                </div>
+                <div class="w-56 h-96 bg-white shadow-xl flex flex-col justify-center rounded-lg p-4 space-y-5 hover:bg-red-900 hover:text-white transition duration-300">
+                    <div class=""><img src="" alt="ini gambar kegiatan"></div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid autem quam
+                        expedita, ullam et quia esse nemo nostrum corporis, cupiditate modi ipsa blanditiis fuga.</div>
+                </div>
+                <div class="w-56 h-96 bg-white shadow-xl flex flex-col justify-center rounded-lg p-4 space-y-5 hover:bg-red-900 hover:text-white transition duration-300">
+                    <div class=""><img src="" alt="ini gambar kegiatan"></div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid autem quam
+                        expedita, ullam et quia esse nemo nostrum corporis, cupiditate modi ipsa blanditiis fuga.</div>
+                </div>
+                <div class="w-56 h-96 bg-white shadow-xl flex flex-col justify-center rounded-lg p-4 space-y-5 hover:bg-red-900 hover:text-white transition duration-300">
+                    <div class=""><img src="" alt="ini gambar kegiatan"></div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid autem quam
+                        expedita, ullam et quia esse nemo nostrum corporis, cupiditate modi ipsa blanditiis fuga.</div>
+                </div>
+                <div class="w-56 h-96 bg-white shadow-xl flex flex-col justify-center rounded-lg p-4 space-y-5 hover:bg-red-900 hover:text-white transition duration-300">
+                    <div class=""><img src="" alt="ini gambar kegiatan"></div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid autem quam
+                        expedita, ullam et quia esse nemo nostrum corporis, cupiditate modi ipsa blanditiis fuga.</div>
+                </div>
+                <div class="w-56 h-96 bg-white shadow-xl flex flex-col justify-center rounded-lg p-4 space-y-5 hover:bg-red-900 hover:text-white transition duration-300">
+                    <div class=""><img src="" alt="ini gambar kegiatan"></div>
+                    <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquid autem quam
+                        expedita, ullam et quia esse nemo nostrum corporis, cupiditate modi ipsa blanditiis fuga.</div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <div class="bg-red-900 text-white py-4">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2023 LCC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
